@@ -1,0 +1,774 @@
+[
+    {
+        "id": "e8dfebc901f7d8ca",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5db59649251acecf",
+        "type": "mqtt-broker",
+        "name": "EMQX",
+        "broker": "broker.emqx.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "af482c7d7f940985",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "c6dc4555c9ce00bf",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "a8ab40b86d28ed54",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "af482c7d7f940985",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "e55fc4e761efadde",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "c6dc4555c9ce00bf",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "54544984ec8742c6",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "c6dc4555c9ce00bf",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "06d188ef6027fdff",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "af482c7d7f940985",
+        "order": 2,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "4ae95c5057445c36",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "af482c7d7f940985",
+        "order": 3,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "1266484b72d8af31",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "c6dc4555c9ce00bf",
+        "order": 3,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "7f2c5bc8862b1599",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b202853c957cc4f6",
+        "type": "ui_text",
+        "z": "e8dfebc901f7d8ca",
+        "group": "a8ab40b86d28ed54",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Voltage",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 960,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "2fdf22838c7de545",
+        "type": "mqtt in",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "topic": "practice2_bytul/low_current",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5db59649251acecf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 450,
+        "y": 200,
+        "wires": [
+            [
+                "d1546d8efa7f7573",
+                "b52c4fa2aa4f0f13"
+            ]
+        ]
+    },
+    {
+        "id": "6ec2d10347432af7",
+        "type": "mqtt in",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "topic": "practice2_bytul/low_voltage",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5db59649251acecf",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "00c8c1e3b59fa9ab",
+                "22487b6ce4e91370"
+            ]
+        ]
+    },
+    {
+        "id": "f09763311a339692",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "V_h1",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "V_h1",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 60,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "39e63ff441904634",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "V_h2",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "V_h2",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "d284b90cf1d3ad4c",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "V_h3",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "V_h3",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "30f0ec8e4d2387b3",
+        "type": "ui_table",
+        "z": "e8dfebc901f7d8ca",
+        "group": "54544984ec8742c6",
+        "name": "",
+        "order": 0,
+        "width": "0",
+        "height": "0",
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 710,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "6e6732f37cd75589",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "V_l1",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "V_l1",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 240,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "16dc13ce131ead62",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "V_l2",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "V_l2",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 300,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "7a77d9d9a2f2e706",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "V_l3",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "V_l3",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "98be588f7a608c57",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "I_h1",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "I_h1",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 420,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "933ac80dd4fc34e5",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "I_h2",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 8,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "I_h2",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "57bcb9ac8922c272",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "I_h3",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 9,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "I_h3",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 540,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "4cfd913454b6c32a",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "I_l1",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 9,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "I_l1",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 600,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "405d4d956c946c90",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "I_l2",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 10,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "I_l2",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 660,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "50bc12d433ed29de",
+        "type": "ui_text_input",
+        "z": "e8dfebc901f7d8ca",
+        "name": "",
+        "label": "I_l3",
+        "tooltip": "",
+        "group": "e55fc4e761efadde",
+        "order": 11,
+        "width": "2",
+        "height": "1",
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "I_l3",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 150,
+        "y": 720,
+        "wires": [
+            [
+                "802e17a77a93c5b5"
+            ]
+        ]
+    },
+    {
+        "id": "802e17a77a93c5b5",
+        "type": "function",
+        "z": "e8dfebc901f7d8ca",
+        "name": "get lookup table data",
+        "func": "if (msg.topic === \"V_h1\") {flow.set(\"V_h1\", msg.payload)}\nif (msg.topic === \"V_h2\") {flow.set(\"V_h2\", msg.payload)}\nif (msg.topic === \"V_h3\") {flow.set(\"V_h3\", msg.payload)}\n\nif (msg.topic === \"V_l1\") {flow.set(\"V_l1\", msg.payload)}\nif (msg.topic === \"V_l2\") {flow.set(\"V_l2\", msg.payload)}\nif (msg.topic === \"V_l3\") {flow.set(\"V_l3\", msg.payload)}\n\nif (msg.topic === \"I_h1\") {flow.set(\"I_h1\", msg.payload)}\nif (msg.topic === \"I_h2\") {flow.set(\"I_h2\", msg.payload)}\nif (msg.topic === \"I_h3\") {flow.set(\"I_h3\", msg.payload)}\n\nif (msg.topic === \"I_l1\") { flow.set(\"I_l1\", msg.payload)}\nif (msg.topic === \"I_l2\") { flow.set(\"I_l2\", msg.payload)}\nif (msg.topic === \"I_l3\") { flow.set(\"I_l3\", msg.payload)}\n\nlet V_h1 = flow.get(\"V_h1\") ?? 0;\nlet V_h2 = flow.get(\"V_h2\") ?? 0;\nlet V_h3 = flow.get(\"V_h3\") ?? 0;\n\nlet V_l1 = flow.get(\"V_l1\") ?? 0;\nlet V_l2 = flow.get(\"V_l2\") ?? 0;\nlet V_l3 = flow.get(\"V_l3\") ?? 0;\n\nlet I_h1 = flow.get(\"I_h1\") ?? 0;\nlet I_h2 = flow.get(\"I_h2\") ?? 0;\nlet I_h3 = flow.get(\"I_h3\") ?? 0;\n\nlet I_l1 = flow.get(\"I_l1\") ?? 0;\nlet I_l2 = flow.get(\"I_l2\") ?? 0;\nlet I_l3 = flow.get(\"I_l3\") ?? 0;\n\nmsg.payload = [\n    { \"V_H\": V_h1, \"V_L\": V_l1, \"I_H\": I_h1, \"I_L\": I_l1 },\n    { \"V_H\": V_h2, \"V_L\": V_l2, \"I_H\": I_h2, \"I_L\": I_l2 },\n    { \"V_H\": V_h3, \"V_L\": V_l3, \"I_H\": I_h3, \"I_L\": I_l3 },\n]\n\nreturn msg",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 420,
+        "wires": [
+            [
+                "30f0ec8e4d2387b3"
+            ]
+        ]
+    },
+    {
+        "id": "00c8c1e3b59fa9ab",
+        "type": "function",
+        "z": "e8dfebc901f7d8ca",
+        "name": "interpolate Vrms",
+        "func": "let V_h1 = Number(flow.get(\"V_h1\")) ?? 0;\nlet V_h2 = Number(flow.get(\"V_h2\")) ?? 0;\nlet V_h3 = Number(flow.get(\"V_h3\")) ?? 0;\n\nlet V_l1 = Number(flow.get(\"V_l1\")) ?? 0;\nlet V_l2 = Number(flow.get(\"V_l2\")) ?? 0;\nlet V_l3 = Number(flow.get(\"V_l3\")) ?? 0;\n\nlet x = Number(msg.payload);\nlet y = 0;\n\n// Check if valid number\nif (isNaN(x)) {\n    msg.payload = y;\n    return msg\n}\nif (x < V_l1 || x > V_l3) { // ----- Out of range -----\n    y = 0;\n} else if (x >= V_l1 && x <= V_l2) { // ----- Between P1 and P2 -----\n    y = V_h1 + ((V_h2 - V_h1) * (x - V_l1)) / (V_l2 - V_l1);\n} else if (x > V_l2 && x <= V_l3) { // ----- Between P2 and P3 -----\n    y = V_h2 + ((V_h3 - V_h2) * (x - V_l2)) / (V_l3 - V_l2);\n}\n\nmsg.payload = y;\nmsg.topic = \"interpolate_voltage\"\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 120,
+        "wires": [
+            [
+                "b202853c957cc4f6",
+                "76aac36f12a1b8ff"
+            ]
+        ]
+    },
+    {
+        "id": "d1546d8efa7f7573",
+        "type": "function",
+        "z": "e8dfebc901f7d8ca",
+        "name": "interpolate Irms",
+        "func": "let I_h1 = Number(flow.get(\"I_h1\")) ?? 0;\nlet I_h2 = Number(flow.get(\"I_h2\")) ?? 0;\nlet I_h3 = Number(flow.get(\"I_h3\")) ?? 0;\n\nlet I_l1 = Number(flow.get(\"I_l1\")) ?? 0;\nlet I_l2 = Number(flow.get(\"I_l2\")) ?? 0;\nlet I_l3 = Number(flow.get(\"I_l3\")) ?? 0;\n\nlet x = Number(msg.payload);\nlet y = 0;\n\n// Check if valid number\nif (isNaN(x)) {\n    msg.payload = y;\n    return msg\n}\nif (x < I_l1 || x > I_l3) { // ----- Out of range -----\n    y = 0;\n} else if (x >= I_l1 && x <= I_l2) { // ----- Between P1 and P2 -----\n    y = I_h1 + ((I_h2 - I_h1) * (x - I_l1)) / (I_l2 - I_l1);\n} else if (x > I_l2 && x <= I_l3) { // ----- Between P2 and P3 -----\n    y = I_h2 + ((I_h3 - I_h2) * (x - I_l2)) / (I_l3 - I_l2);\n}\n\nmsg.payload = y;\nmsg.topic = \"interpolate_current\"\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 200,
+        "wires": [
+            [
+                "bfabbdf9b37c91d0",
+                "76aac36f12a1b8ff"
+            ]
+        ]
+    },
+    {
+        "id": "bfabbdf9b37c91d0",
+        "type": "ui_text",
+        "z": "e8dfebc901f7d8ca",
+        "group": "06d188ef6027fdff",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Current",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 960,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "e07e9f219abab21b",
+        "type": "ui_text",
+        "z": "e8dfebc901f7d8ca",
+        "group": "4ae95c5057445c36",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Power",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1070,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "76aac36f12a1b8ff",
+        "type": "function",
+        "z": "e8dfebc901f7d8ca",
+        "name": "power",
+        "func": "if (msg.topic === \"interpolate_voltage\") {flow.set(\"V\", msg.payload)}\nif (msg.topic === \"interpolate_current\") {flow.set(\"I\", msg.payload)}\n\nlet V = flow.get(\"V\") ?? 0;\nlet I = flow.get(\"I\") ?? 0;\n\nmsg.payload = V*I\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 910,
+        "y": 160,
+        "wires": [
+            [
+                "e07e9f219abab21b"
+            ]
+        ]
+    },
+    {
+        "id": "22487b6ce4e91370",
+        "type": "ui_text",
+        "z": "e8dfebc901f7d8ca",
+        "group": "1266484b72d8af31",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "V_lpp",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b52c4fa2aa4f0f13",
+        "type": "ui_text",
+        "z": "e8dfebc901f7d8ca",
+        "group": "1266484b72d8af31",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "I_lpp",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5089fcd85ed25bfd",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6",
+            "node-red-node-ui-table": "0.4.5"
+        }
+    }
+]
