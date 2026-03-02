@@ -1,15 +1,10 @@
 {
   "name": "red-railway",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node-red -p $PORT"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
+  "scripts": {
+    "start": "node_modules/.bin/node-red -p $PORT"
+  },
   "dependencies": {
     "node-red": "^4.1.6"
   }
