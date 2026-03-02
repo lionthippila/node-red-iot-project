@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
-    "start": "node_modules/.bin/node-red -p $PORT"
+    "start": "node node_modules/node-red/red.js -p $PORT"
   },
   "dependencies": {
     "node-red": "^4.1.6"
